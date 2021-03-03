@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+._2fG9h  {
+  padding: 0 !important;
+}
+
+._1Pz2d.undefined, ._1lB9c {
+  display: none !important;
+}
+
+#root {
+  height: 100vw;
+  background: #282c34;
+}
+
+.progress-bar {
+  width: 60%;
+  margin: auto;
+  padding: 32px 0 ;
+}
+._eV_dK {
+  text-align: center;
+}
+
+.text-holder {
+  position: absolute;
+  width: 100%;
+  top: 84px;
+}
+
+.text {
+  margin: auto;
+  padding: 48px;
+}
+
+.text > span {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  display: block;
+}
+
+.btn {
+  border-radius: 4px;
+  outline: none;
+  padding: 16px;
+  margin: 0 16px;
+  border: none;
+}
+
+.btn-save {
+  background-color: seagreen;
+}
+
+.btn-save:disabled {
+  cursor: default;
+  background-color: gray;
+}
+
+.btn-save:disabled:hover {
+  cursor: default;
+  background-color: gray;
+}
+
+.btn-save:hover {
+  background-color: #15402b;
+  cursor: pointer;
+}
+
+.btn-download {
+  background-color: lightyellow;
+}
+
+.btn-download:hover {
+  background-color: #56564c;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+
